@@ -13,7 +13,8 @@ spec:
         app: yunpan
     spec:
       containers:
-      - name: yunpan
+      - image: okteto/hello-world:php
+        name: yunpan
 
 ---
 
